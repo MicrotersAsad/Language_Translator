@@ -18,6 +18,7 @@ export default async function Home(props) {
       <main>
         <h1>{t('header')}</h1>
         <ExampleClientComponent />
+        <p>Hello World</p>
         <LanguageChanger/>
       </main>
     </TranslationsProvider>
